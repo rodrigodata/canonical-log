@@ -1,0 +1,39 @@
+{
+  "name": "canonical-logs",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "install:only:setup": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigodata/canonical-log.git"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "express",
+    "docker",
+    "compose",
+    "splunk"
+  ],
+  "author": "Rodrigo Andrade <data@rodrigoandrade.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigodata/canonical-log/issues"
+  },
+  "homepage": "https://github.com/rodrigodata/canonical-log#readme",
+  "dependencies": {
+    "express": "4.16.4",
+    "celebrate": "10.0.0",
+    "body-parser": "1.18.3",
+    "cors": "2.8.5",
+    "module-alias": "2.2.0",
+    "compression": "1.7.4",
+    "helmet": "3.18.0",
+    "splunk-sdk": "1.9.0"
+  },
+  "devDependencies": {},
+  "_moduleAliases": {}
+}

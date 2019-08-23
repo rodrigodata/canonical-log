@@ -1,12 +1,20 @@
 version: '3'
-
 volumes:
   opt-splunk-etc:
   opt-splunk-var:
 
 services:
-  splunkenterprise:
+  backend:
+    hostname: backend
+    build: './backend'
+    ports:
+      - "3001:3000"
+    depends_on: 
+      - splunkenterprise
+    environment:
+      - PORT=3000
 
+  splunkenterprise:
     hostname: splunkenterprise
     image: splunk/splunk:7.0.3
     environment:
