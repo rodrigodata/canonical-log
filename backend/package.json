@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/rodrigodata/canonical-log#readme",
   "dependencies": {
-    "express": "4.16.4",
+    "express": "4.19.2",
     "celebrate": "10.0.0",
     "body-parser": "1.18.3",
     "cors": "2.8.5",
